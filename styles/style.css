@@ -77,6 +77,7 @@ nav ul{
     margin: 2.5% 0;
 }
 
+/*-- Blurbs --*/
 .blurb {
     padding: 2%;
 }
@@ -90,6 +91,9 @@ nav ul{
 }
 .blurb .profile{
     font-size: 14px;
+}
+.blurb .profile .text{
+    margin-top: 5px;
 }
 .blurb .experience{
     padding: 6.5%;
