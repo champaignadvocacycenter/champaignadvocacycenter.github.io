@@ -1,5 +1,5 @@
 
-window.onscroll = stick;
+window.onscroll = handleScroll;
 window.onresize = resize;
 
 /*--- STICKY SIDEBAR --*/
@@ -29,10 +29,10 @@ function resize(){
     width = content.offsetWidth/4;
     
     // Call to stick
-    stick();
+    handleScroll();
 }
 
-function stick() {
+function handleScroll() {
   sticky = headerBottom.offsetTop;
   stickyBottom = footer.offsetTop;
 
@@ -53,8 +53,8 @@ function stick() {
     }
     sidebar.style.width = width+"px";
   }
-  
-  var position = $(this).scrollTop();
+
+  // Sidebar Highlighting
   let blurbs = document.getElementsByClassName("blurb");
 
   for(var i = 0; i < blurbs.length; i++){
