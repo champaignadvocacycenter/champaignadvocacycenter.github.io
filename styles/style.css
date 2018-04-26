@@ -71,9 +71,8 @@ nav ul{
 }
 
 .banner img{
-    width: 80%;
-    padding: 10px;
-
+    width: 90%;
+    margin: 10% 0;
 }
 
 .blurb {
@@ -83,6 +82,9 @@ nav ul{
 .blurb img{
     max-width: 100%;
     padding: 5%;
+}
+.blurb .video{
+    margin: 4.5% 0;
 }
 .blurb .profile{
     font-size: 14px;
