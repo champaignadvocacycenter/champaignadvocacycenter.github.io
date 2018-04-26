@@ -63,8 +63,6 @@ nav ul{
     width: 100%;
 }
 
-
-
 /*-- CONTENT --*/
 .banner {
     display: block;
@@ -136,6 +134,9 @@ nav ul{
 }
 .sidebar a:hover{
     color: rgb(27, 78, 150);
+}
+.sidebar .active{
+    font-weight: bold;
 }
 hr { 
     display: block;
