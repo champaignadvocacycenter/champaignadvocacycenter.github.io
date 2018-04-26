@@ -140,6 +140,10 @@ hr {
     border-style: inset;
     border-width: 1px;
 } 
+/*-- Why it matters --*/
+.pieCharts {
+    text-align: center;
+}
 
 /*--- FOOTER --*/
 .footer{

@@ -7,7 +7,7 @@ var pie = new d3pie("pieChartAge", {
         },
     },
     size: {
-        canvasWidth: 400,
+        canvasWidth: 375,
         pieInnerRadius: "25%",
         pieOuterRadius: "90%"
     },
@@ -74,7 +74,7 @@ var pie = new d3pie("pieChartAge", {
         },
     },
     size: {
-        canvasWidth: 400,
+        canvasWidth: 375,
         pieInnerRadius: "25%",
         pieOuterRadius: "90%"
     },
@@ -149,7 +149,7 @@ var pie = new d3pie("pieChartRace", {
         },
     },
     size: {
-        canvasWidth: 400,
+        canvasWidth: 375,
         pieInnerRadius: "25%",
         pieOuterRadius: "90%"
     },
