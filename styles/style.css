@@ -23,8 +23,9 @@
 /* -- Colors for testing -- */
 
 #wrapper{
-    background-color: #0E284C !important;
-    /* background-color:#0E284C; */
+    background: #1d3780;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(#1d3780, #0d0e47);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(#1d3780, #0d0e47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #header{
@@ -41,14 +42,10 @@ nav ul{
     justify-content: space-around;
     width: 100%;
 }
-
-.navbar-default{
-    background-color: #0E284C;
-    color: #ffffff;
-}
 .navbar-light{
     color: #ffffff;
     background: #9DB5D0; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#eef2f3, #b3c4d1);
     background: linear-gradient(#eef2f3, #b3c4d1);
 }
 .sticky {
@@ -156,6 +153,7 @@ hr {
     align-items: center;
     font-size: 12px;
     background: #9DB5D0; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(to bottom right, #b3c4d1, #c3c4c591);
     background: linear-gradient(to bottom right, #b3c4d1, #c3c4c591);
 }
 .footer a{
