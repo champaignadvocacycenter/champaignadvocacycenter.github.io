@@ -84,6 +84,13 @@ nav ul{
     max-width: 100%;
     padding: 5%;
 }
+.blurb .profile{
+    font-size: 14px;
+}
+.blurb .experience{
+    padding: 6.5%;
+    font-size: 14px;
+}
 .blurb h1{
     font-size: 24px;
 }
