@@ -46,6 +46,11 @@ nav ul{
     background-color: #0E284C;
     color: #ffffff;
 }
+.navbar-light{
+    color: #ffffff;
+    background: #9DB5D0; /* For browsers that do not support gradients */
+    background: linear-gradient(#eef2f3, #b3c4d1);
+}
 .sticky {
     position: fixed;
     top: 0px;
@@ -147,10 +152,11 @@ hr {
 
 /*--- FOOTER --*/
 .footer{
-    background-color: #9DB5D0;
     display: flex;
     align-items: center;
     font-size: 12px;
+    background: #9DB5D0; /* For browsers that do not support gradients */
+    background: linear-gradient(to bottom right, #b3c4d1, #c3c4c591);
 }
 .footer a{
     color: rgba(0,0,0,.5);
