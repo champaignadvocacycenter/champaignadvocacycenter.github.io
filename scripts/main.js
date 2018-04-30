@@ -61,7 +61,7 @@ function handleScroll() {
     var target = blurbs[i].offsetTop;
     var id = blurbs[i].id;
 
-    if (y >= target) {
+    if (y > target) {
       console.log(id);
       $('.nav > a').removeClass('active');
       $('.nav > a[href="#' + id + '"]').addClass('active');
