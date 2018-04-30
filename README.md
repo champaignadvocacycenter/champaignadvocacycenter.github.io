@@ -13,6 +13,10 @@ By using plain vanilla HTML, JavaScript, and CSS, we can deploy this website wit
 the use of any databases or frameworks. There is little to no backend maintenance to be 
 done. 
 
+### Making Changes To Text
+
+A short how-to on making changes to the text on the website is available [here](https://github.com/champaignadvocacycenter/champaignadvocacycenter.github.io/blob/master/HowTo.pdf)
+
 ### Prerequisites
 
 If you would like to read or learn more about HTML, JavaScript, or CSS:
